@@ -1,0 +1,220 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Fashion Store - Trendy Fashion for Everyone</title>
+    <link rel="stylesheet" href="fashion.css">
+</head>
+<body>
+    <!-- Header Section -->
+    <header>
+        <div class="container">
+            <h1 class="logo">Fashion Store</h1>
+            <nav>
+                <ul>
+                    <li><a href="#home">Home</a></li>
+                    <li><a href="#products">Products</a></li>
+                    <li><a href="#sale">Sale Offers</a></li>
+                    <li><a href="#benefits">Benefits</a></li>
+                    <li><a href="#inventory">Inventory</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <!-- Hero Section -->
+    <section id="home" class="hero">
+        <div class="container">
+            <h2>Discover Your Style</h2>
+            <p>Explore the latest fashion trends with our exclusive collection</p>
+            <a href="#products" class="btn">Shop Now</a>
+        </div>
+    </section>
+
+    <!-- Products Section -->
+    <section id="products" class="products">
+        <div class="container">
+            <h2>Our Collection</h2>
+            <div class="product-grid">
+                <div class="product-card">
+                    <img src="https://via.placeholder.com/300x400/FFB6C1/FFFFFF?text=Women's+Dress" alt="Women's Dress">
+                    <h3>Elegant Dresses</h3>
+                    <p>KES49.99</p>
+                    <button class="add-to-cart">Add to Cart</button>
+                </div>
+                <div class="product-card">
+                    <img src="https://via.placeholder.com/300x400/87CEEB/FFFFFF?text=Men's+Shirt" alt="Men's Shirt">
+                    <h3>Classic Shirts</h3>
+                    <p>KES39.99</p>
+                    <button class="add-to-cart">Add to Cart</button>
+                </div>
+                <div class="product-card">
+                    <img src="https://via.placeholder.com/300x400/98FB98/FFFFFF?text=Accessories" alt="Fashion Accessories">
+                    <h3>Trendy Accessories</h3>
+                    <p>KES24.99</p>
+                    <button class="add-to-cart">Add to Cart</button>
+                </div>
+                <div class="product-card">
+                    <img src="https://via.placeholder.com/300x400/DDA0DD/FFFFFF?text=Footwear" alt="Footwear">
+                    <h3>Stylish Footwear</h3>
+                    <p>KES1900.99</p>
+                    <button class="add-to-cart">Add to Cart</button>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Sale Offers Section -->
+    <section id="sale" class="sale-offers">
+        <div class="container">
+            <h2>Upcoming Sale Offers</h2>
+            <table>
+                <thead>
+                    <tr>
+                        <th>Sale Event</th>
+                        <th>Start Date</th>
+                        <th>End Date</th>
+                        <th>Discount</th>
+                        <th>Description</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>Summer Clearance</td>
+                        <td>July 15, 2023</td>
+                        <td>July 30, 2023</td>
+                        <td>Up to 50% off</td>
+                        <td>Clearance on all summer collections</td>
+                    </tr>
+                    <tr>
+                        <td>Back to School</td>
+                        <td>August 10, 2023</td>
+                        <td>August 25, 2023</td>
+                        <td>30% off</td>
+                        <td>Special discounts on casual wear</td>
+                    </tr>
+                    <tr>
+                        <td>Black Friday</td>
+                        <td>November 24, 2023</td>
+                        <td>November 27, 2023</td>
+                        <td>Up to 70% off</td>
+                        <td>Biggest sale of the year</td>
+                    </tr>
+                    <tr>
+                        <td>Holiday Special</td>
+                        <td>December 15, 2023</td>
+                        <td>December 31, 2023</td>
+                        <td>25% off</td>
+                        <td>Festive collection at special prices</td>
+                    </tr>
+                </tbody>
+            </table>
+        </div>
+    </section>
+
+    <!-- Benefits Section -->
+    <section id="benefits" class="benefits">
+        <div class="container">
+            <h2>Why Shop With Us?</h2>
+            <div class="benefits-grid">
+                <div class="benefit-item">
+                    <h3>Quality Assurance</h3>
+                    <p>All our products go through rigorous quality checks to ensure you get the best.</p>
+                </div>
+                <div class="benefit-item">
+                    <h3>Free Shipping</h3>
+                    <p>Enjoy free shipping on all orders over $50. No hidden charges!</p>
+                </div>
+                <div class="benefit-item">
+                    <h3>Easy Returns</h3>
+                    <p>Not satisfied? Return within 30 days for a full refund, no questions asked.</p>
+                </div>
+                <div class="benefit-item">
+                    <h3>24/7 Support</h3>
+                    <p>Our customer service team is available round the clock to assist you.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Inventory Section -->
+    <section id="inventory" class="inventory">
+        <div class="container">
+            <h2>Inventory Management</h2>
+            <p>Track our store's inventory and sales performance in real-time.</p>
+            <div class="inventory-stats">
+                <div class="stat">
+                    <h3>Total Items in Stock</h3>
+                    <p id="total-stock">1,250</p>
+                </div>
+                <div class="stat">
+                    <h3>Items Sold Today</h3>
+                    <p id="sold-today">47</p>
+                </div>
+                <div class="stat">
+                    <h3>Revenue This Month</h3>
+                    <p id="month-revenue">KES12,847</p>
+                </div>
+            </div>
+            <table class="inventory-table">
+                <thead>
+                    <tr>
+                        <th>Product</th>
+                        <th>Initial Stock</th>
+                        <th>Sold</th>
+                        <th>In Stock</th>
+                        <th>Revenue</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>Women's Dresses</td>
+                        <td>300</td>
+                        <td>185</td>
+                        <td>115</td>
+                        <td>KES9,250</td>
+                    </tr>
+                    <tr>
+                        <td>Men's Shirts</td>
+                        <td>250</td>
+                        <td>120</td>
+                        <td>130</td>
+                        <td>KES4,800</td>
+                    </tr>
+                    <tr>
+                        <td>Accessories</td>
+                        <td>500</td>
+                        <td>320</td>
+                        <td>180</td>
+                        <td>KES7,680</td>
+                    </tr>
+                    <tr>
+                        <td>Footwear</td>
+                        <td>200</td>
+                        <td>95</td>
+                        <td>105</td>
+                        <td>KES7,600</td>
+                    </tr>
+                </tbody>
+                <tfoot>
+                    <tr>
+                        <td colspan="4"><strong>Total Revenue</strong></td>
+                        <td><strong>KES629,330</strong></td>
+                    </tr>
+                </tfoot>
+            </table>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer>
+        <div class="container">
+            <p>&copy; 2025 Fashion Store. All rights reserved.</p>
+            <p>Designed for CIS 221 Assignment <br>@OLEKO THE BULL.</p>
+        </div>
+    </footer>
+
+   
+</body>
+</html>
